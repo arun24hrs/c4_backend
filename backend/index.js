@@ -12,7 +12,6 @@ app.use("/posts",checker)
 app.use("/posts", postRouter);
 
 
-
 app.listen(process.env.PORT, async()=>{
     await connect;
     // await mongoose.connect(process.env.CONNECTOR)
